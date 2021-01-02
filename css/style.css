@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bfcfcf;
+    
+}
+
+#mainHeader {
+    background-color: #204040;
+    color: white
+}
+
+#mainHeader a {
+    color: white;
+    text-decoration: none;
+}
+
+#mainHeader a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+#mainHeader a:active {
+    color: goldenrod
+}
+
+#navBar {
+    background-color: darkslategray;  
+    border-top: 1px solid rgb(0,0,0, 0.5);
+    border-bottom: 1px solid rgb(0,0,0, 0.5);
+}
+
+#navBar ul {
+	padding:0;
+    list-style: none;
+}
+
+#navBar li {
+    display: inline;
+}
+
+#navBar li:first-child a {
+    border-left: 2px  solid rgb(0,0,0, 0.5);
+}
+
+#navBar a {
+    color: white;
+    text-decoration: none;
+    background-color: darkslategray;
+    border-right: 2px solid rgb(0,0,0, 0.5);
+    padding: 20px 15px 20px 15px;
+}
+
+#navBar a:hover {
+    color: gold;
+    background-color: #002020;
+}
+
+#navBar a:active {
+    color: goldenrod;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #204040;
+    
+    text-align: center;
+    color:lightgray;
+    font-size: 10px;
+}
+
+img{
+    height: 30%;
+    width: 30%;
+}
+
+.top {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#proj1:hover{
+    opacity: 0.5;
+}
+
+#proj1:active {
+    opacity: 1;
+}
+
+.post {
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto auto 10px auto
+}
+
+.post h6 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.pageWrapper{
+    position: relative;
+    min-height: 100vh;
+}
+.contentWrapper {
+    padding-bottom: 150px;
+}
+
+.projWrapper {
+    background-color: #407070;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+   
+}
+
+.projWrapper:hover{
+    background-color: rgb(64, 112, 112, 0.5);
+}
+
+.projWrapper:hover img {
+    opacity: 0.5;
+}
+
+.projWrapper img {
+    height: 95%;
+    width: 95%;
+    padding-bottom: 5px;
+}
+
